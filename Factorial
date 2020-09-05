@@ -1,9 +1,5 @@
 
 #include <stdio.h> 
-
-  
-
-
 unsigned int factorial(unsigned int n) 
 { 
 
