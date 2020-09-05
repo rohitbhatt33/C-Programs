@@ -1,4 +1,8 @@
-include <iostream> 
+
+#include <stdio.h> 
+
+  
+
 
 unsigned int factorial(unsigned int n) 
 { 
@@ -10,14 +14,36 @@ unsigned int factorial(unsigned int n)
     return n * factorial(n - 1); 
 } 
 
+  
+
 int main() 
 { 
 
     int num = 5; 
 
-    cout << "Factorial of "
-
-         << num << " is " << factorial(num) << endl; 
+    printf("Factorial of %d is %d", num, factorial(num)); 
 
     return 0; 
-} 
+}
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
