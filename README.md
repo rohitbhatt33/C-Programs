@@ -1,1 +1,1 @@
-This repo include programs basrd on c language .
+This repo include programs based on c language .
